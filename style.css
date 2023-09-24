@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+
+    width: 100vh;
+    height: 100%;
+    background-image: url('img/fundo.png');
+    font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    width: 12vw;
+    height: auto;
+}
+
+#logoimg {
+    position: absolute;
+    top: 6vw;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#h1bv {
+    position: absolute;
+    top: 38vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+}
+
+#btnStart {
+    position: absolute;
+    top: 60vh;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border: none;
+    background: #FF9500;
+    width: 30vh;
+    height: 70px;
+    flex-shrink: 0;
+
+    color: white;
+    font-size: 20px;
+    border-radius: 22px;
+    
+    cursor: pointer;
+}

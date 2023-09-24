@@ -1,0 +1,138 @@
+body, html {
+    margin: 0;
+
+    width: 100vh;
+    height: 100%;
+    background-image: url('img/fundo.png');
+    font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    width: 8vw;
+    height: auto;
+}
+
+#logoimg {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translateX(-50%);
+
+}
+
+#h1bv {
+    position: absolute;
+    top: 6vw;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+}
+
+#btnLogin {
+    position: absolute;
+    top: 85vh;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border: none;
+    background: #FF9500;
+    width: 30vh;
+    height: 60px;
+    flex-shrink: 0;
+
+    color: white;
+    font-size: 20px;
+    border-radius: 22px;
+    
+    cursor: pointer;
+}
+
+#conteinerLogin{
+    position: absolute;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.30);
+    padding: 3%;
+    padding-right: 4%;
+    padding-left: 4%;
+
+    top: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#conteinerLogin>h1{
+    position: relative;
+    color: #FFF;
+    font-family: Maven Pro;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    top: -20px;
+}
+
+#conteinerLogin>h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#conteinerLogin>input{
+    border: none;
+    width: 50vh;
+    height: 3vw;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: rgba(223, 223, 223, 0.58);
+
+    font-size: 20px;
+    color: rgb(26, 26, 26);
+
+    padding-left: 10px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #logo {
+        width: 30%;
+        height: auto;
+    }
+
+    #logoimg {
+        top: 5%;
+        left: 63%;
+        transform: translateX(-50%);
+    }
+
+    #h1bv {
+        font-size: 24px;
+        top: 14%;
+    }
+
+    #btnLogin {
+        top: 70vh;
+        width: 70%;
+        font-size: 18px;
+    }
+
+    #conteinerLogin>h1 {
+        font-size: 24px;
+    }
+
+    #conteinerLogin>h2 {
+        font-size: 18px;
+    }
+
+    #conteinerLogin>input {
+        width: 90%;
+        height: 40px;
+        font-size: 16px;
+    }
+}
